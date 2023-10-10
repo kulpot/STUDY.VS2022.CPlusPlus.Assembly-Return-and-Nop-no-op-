@@ -14,7 +14,7 @@ doit proc
 	mov eax, 9		; eax has the answer, edx has the remainder
 	mov ebx, 2
 	div ebx
-	
+	ret				; return
 	
 	
 	
